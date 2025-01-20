@@ -1,3 +1,69 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Servicios a Domicilio - Muebles, Pintura y Reparaciones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Servicios a Domicilio</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#" role="button">Cotizar</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section id="servicios">
+                <hgroup>
+                    <h2>Montaje y desmontaje de muebles</h2>
+                    <h3>Servicio rápido y eficiente</h3>
+                </hgroup>
+                <p>Ofrecemos soluciones de montaje y desmontaje para cualquier tipo de mueble con profesionalismo y atención al detalle.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/600x400/?furniture,assembly" alt="Montaje de muebles">
+                    <figcaption><a href="https://unsplash.com" target="_blank">Imagen de Unsplash</a></figcaption>
+                </figure>
+                <h3>Servicios de pintura</h3>
+                <p>Pintamos tus espacios con calidad, utilizando los mejores materiales y técnicas.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/600x400/?painting,home" alt="Servicios de pintura">
+                    <figcaption><a href="https://unsplash.com" target="_blank">Imagen de Unsplash</a></figcaption>
+                </figure>
+                <h3>Pequeñas reparaciones</h3>
+                <p>Nos encargamos de esas pequeñas reparaciones que hacen la diferencia en tu hogar.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/600x400/?repair,home" alt="Pequeñas reparaciones">
+                    <figcaption><a href="https://unsplash.com" target="_blank">Imagen de Unsplash</a></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Solicita tu servicio</h2>
+                    <h3>Déjanos tus datos y te contactaremos</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Nombre" aria-label="Nombre" required />
+                    <input type="email" id="email" name="email" placeholder="Correo Electrónico" aria-label="Correo Electrónico" required />
+                    <button type="submit" onclick="event.preventDefault()">Enviar</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Términos y condiciones</a> • <a href="#">Política de privacidad</a></small>
+    </footer>
+</body>
+</html>
 
 # Contributor Covenant Code of Conduct
 
@@ -102,32 +168,4 @@ sustained inappropriate behavior.
 communication with the community for a specified period of time. No public or
 private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
-
-### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the
-community.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
-
-Community Impact Guidelines were inspired by
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC].
-
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
-
-[homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+Violating these terms may lead to a permanent
